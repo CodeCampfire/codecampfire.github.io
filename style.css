@@ -15,6 +15,7 @@ body {
 	background-attachment: fixed;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	background-color: black;
 }
 .wrapper {
 	display: flex; 
@@ -25,10 +26,11 @@ body {
 	text-align:center;
 	padding: 20px; 
 	margin: 0px; 
-	background: #e5d3bd00; 
+	background: #00000000; 
 	border: 2px solid #e81e2500; 
 	flex: 0 0 auto;	
 	color: white;
+	
 }
 
 .content {
@@ -126,3 +128,5 @@ p, table ,td ,th{
 	margin-left: auto;
 	margin-right: auto;
   }
+
+  
