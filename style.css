@@ -1,0 +1,128 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+html,
+body {
+	height: 100%; 
+	padding: 0px; 
+	margin: 0px; 
+	background: url(Fa1N-dark1.gif) no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100% 100%; /* Современные браузеры */
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+.wrapper {
+	display: flex; 
+	flex-direction: column; 
+	height: 100%; 
+}
+.header {
+	text-align:center;
+	padding: 20px; 
+	margin: 0px; 
+	background: #e5d3bd00; 
+	border: 2px solid #e81e2500; 
+	flex: 0 0 auto;	
+	color: white;
+}
+
+.content {
+	padding: 20px; 
+	margin: 20px; 
+	color: white; 
+	flex: 1 0 auto; 
+	font-family: 'Visitor-Rus', sans-serif;
+}
+.footer {
+	text-align:center;
+	padding: 20px; 
+	margin: 0px; 
+    background: #e5d3bd00; 
+    border: 2px solid #e81e2500; 
+	flex: 0 0 auto; 
+	color: white;
+	font-family: 'Visitor-Rus', sans-serif;
+}
+
+li{
+	margin: 15px;
+	font-size: 20px;
+}
+
+ul{
+	margin: 20px;
+	padding: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* display: flex; */
+	display: inline-block;
+	font-size: 20px;
+}
+
+nav li {
+	margin: 0 10px;
+	color: white;
+	float:left;
+	
+}
+
+nav a {
+	padding: 10px;
+	display: block;
+	color: rgb(255, 255, 255);
+	font-family: 'Visitor-Rus', sans-serif;
+	
+}
+
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+	padding: 20px;
+    text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+
+.custom-text{
+	font-family: 'Rubik Iso', cursive;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+@font-face {
+	font-family: 'Visitor-Rus';
+	src: url(Visitor_Rus.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+p, table ,td ,th{
+	color: white;
+	font-size: 20px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+  }
