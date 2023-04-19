@@ -162,37 +162,46 @@ th {
   }
 
 .dropdown {
-position: relative;
-display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
-display: none;
-position: absolute;
-z-index: 1;
+	background-color: rgba(0, 0, 0, 0.692); 
+	border-radius: 0 0 10px 10px; 
+	overflow: hidden; 
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 100%; /* устанавливаем ширину выпадающего меню на 100% */
+	top: 100%; /* задаем местоположение меню под кнопкой */
+	left: 0; /* выравниваем меню по левому краю */
+	margin-top: -2px; /* компенсируем границу кнопки сверху */
+	padding-top: 2px; /* компенсируем границу кнопки сверху */
 }
 
 .dropdown-content a {
-color: rgb(255, 255, 255);
-padding: 12px 16px;
-text-decoration: none;
-display: block;
+	color: rgb(255, 255, 255);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 .dropdown:hover .dropdown-content {
-display: block;
+	display: block;
 }
 
 .dropbtn {
-background-color: #00000000;
-color: white;
-padding: 10px;
-font-size:20px;
-border: none;
-cursor: pointer;
+	background-color: #00000000;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	font-size:20px;
+	border: none;
+	cursor: pointer;
+	width: 115px; /* примерная ширина кнопки */
 }
 
 .dropbtn:hover {
-background-color: #00000000;
+	background-color: #00000000;
 }
 
