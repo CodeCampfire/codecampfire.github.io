@@ -2,6 +2,9 @@
 	margin: 0; 
 	padding: 0; 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+
 html,
 body {
 	height: 100%; 
@@ -48,7 +51,8 @@ body {
 	border: 2px solid #e81e2500; 
 	flex: 0 0 auto; 
 	color: white;
-	font-family: 'Visitor-Rus', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	line-height: 350%;
 }
 
 li{
@@ -269,4 +273,8 @@ svg{
 	position: relative;
 	top: 50%;
 
+}
+
+.active {
+	transform: scale(1.2);
 }
